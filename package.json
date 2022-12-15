@@ -1,0 +1,18 @@
+{
+  "name": "mermaid-dory",
+  "version": "0.0.0",
+  "description": "Generate Mermaid from TypeScript",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "tsc",
+    "serve": "vite preview",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4",
+    "vite": "^4.0.0",
+    "vitest": "^0.25.6"
+  },
+  "prettier": {}
+}
