@@ -41,14 +41,16 @@ flowchart({ direction: 'LR' })
   .link(
     "a",
     { kind:'-.-', text: 'd' },
-    ["b", "c"]
+    ["b", "c"],
+    {},
+    ["d", "e"],
   )
   .render()
 ```
 
 ```mermaid
 flowchart LR
-    a -.- |d| b & c
+    a -.- |d| b & c --> d & e
 ```
 
 Flowchart TODO
